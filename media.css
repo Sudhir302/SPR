@@ -1,0 +1,95 @@
+/* -------------------870px------------------------- */
+
+@media screen and (max-width:870px){
+    .img-container{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    img{
+        width: 7rem;
+        height: 7rem;
+    }
+    .user-choice{
+        width: 7rem;
+        height: 7rem;
+    }
+    .computer-choice{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+/* --------------------------700px------------------------------- */
+
+@media screen and (max-width:700px){
+    .img-container{
+        width: 19rem;
+        height: 19rem;
+    }
+    h2{
+        margin: 0;
+        font-size: 1.9rem;
+    }
+    #subcontainer{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .score strong{
+        display: flex;
+    }
+    #user-container{
+        margin-top: .7rem;
+    }
+    #user-img{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+/* --------------------410px------------------------------ */
+
+@media screen and (max-width:410px){
+    h2{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .text-container{
+        font-size: 1.2rem;
+    }
+    .score{
+        font-size: 1.2rem;
+    }
+    .img-container{
+        width: 16rem;
+        height: 16rem;
+    }
+    .computer-choice{
+        width: 13rem;
+        height: 13rem;
+    }
+    #user-img{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .user-choice{
+        margin:0 .5rem;
+    }
+    #rock:hover::after{
+        content: "Rock";
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    #user-container{
+        margin-top: 2rem;
+    }
+    .score{
+        text-align: center;
+    }
+}
