@@ -4,7 +4,8 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(222deg,rgb(33, 167, 219),rgb(228, 37, 37), rgb(240, 188, 15),rgb(228, 37, 37),rgb(33, 167, 219));
+    background:linear-gradient(45deg, gray,silver,wheat);
+    /* linear-gradient(222deg,rgb(33, 167, 219),rgb(228, 37, 37), rgb(240, 188, 15),rgb(228, 37, 37),rgb(33, 167, 219));; */
     height: 100vh;
 }
 
