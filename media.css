@@ -73,6 +73,8 @@
     #user-img{
         display: flex;
         flex-wrap: nowrap;
+        height: 10rem;
+        align-items: center;
     }
 
     .user-choice{
