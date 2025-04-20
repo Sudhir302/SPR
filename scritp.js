@@ -12,29 +12,12 @@ let compChoice = () =>{
 
 let choices = document.querySelectorAll(".user-choice");
 
-// choices.addEventListener("click", ()=>{
-//     let userChoice = choices.getAttribute("id");
-//     console.log(userChoice);
-// });
-
 choices.forEach((choice) => {
     choice.addEventListener("click",() => {
         userChoice = choice.getAttribute("id");
         playGame();
     });
 });
-
-// let compImg = () =>{
-//     if(compGenChoice === "Scissor"){
-//         document.querySelector('.computer-choice').style.backgroundImg = "url('scissor.jpg')";
-//     }
-//     else if(compGenChoice === "Paper"){
-//         document.querySelector('.computer-choice').style.backgroundImg = "url('paper.jpg')";
-//     }
-//     else{
-//         document.querySelector('.computer-choice').style.backgroundImg = "url('rock.jpg)";
-//     }
-// }
 
 let playGame =()=>{
     const compGenChoice = compChoice();
@@ -43,15 +26,15 @@ let playGame =()=>{
 
     // -----------------------------for computer image----------
     if(compGenChoice === "Scissor"){
-        document.querySelector('.computer-choice').style.backgroundImage = "url('scissor.jpg')";
+        document.querySelector('.computer-choice').style.backgroundImage = "url('./image/scissor.jpg')";
         document.querySelector('.computer-choice').style.backgroundSize ="cover";
     }
     else if(compGenChoice === "Paper"){
-        document.querySelector('.computer-choice').style.backgroundImage = "url('paper.jpg')";
+        document.querySelector('.computer-choice').style.backgroundImage = "url('./image/paper.jpg')";
         document.querySelector('.computer-choice').style.backgroundSize ="cover";
     }
     else{
-        document.querySelector('.computer-choice').style.backgroundImage = "url('rock.jpg')";
+        document.querySelector('.computer-choice').style.backgroundImage = "url('./image/rock.jpg')";
         document.querySelector('.computer-choice').style.backgroundSize ="cover";
     }
 

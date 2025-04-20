@@ -1,10 +1,43 @@
-# SPR
-This is a web page for Scissor Paper Rock game
+# Sicessor Paper Rock
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-I have used HTML5 CSS3 and some basic concept of JavaScript to create Scissor Paper Rock game. In this game user chooses any one among 3 choices, accordingly computer generates random choices that conclude who won the game.
-Here,
-1) Scissor beats Paper
-2) Paper beats Rock and
-3) Rock beats Scissor
+A fun and interactive browser-based Scissor, Paper, Rock game where you challenge the computer in real time!
+Includes audio feedback for every result, dynamic score tracking, and a clean, responsive layout.
+Built using HTML, CSS, and JavaScript – perfect for learning DOM manipulation and game logic.
 
-Whoever will win the game the +1 Score will be added to it.
+## Features
+
+- Randomized computer moves with visual representation.
+- Keeps real-time scores for both player and computer.
+- Sound Effects: Unique audio cues for win, lose, and draw scenarios.
+- Responsive Design: Optimized for both desktop and mobile play.
+
+## Screenshots
+
+![Webimg](./image/webimg.png)
+
+## 👩‍💻 Technologies Used
+- HTML5
+- CSS#
+- JavaScript
+
+## 🚀 Getting Started
+
+### Installation
+1. Clone the repository:
+    ```
+    https://github.com/Sudhir302/SPR.git
+2. Navigate to the project directory:
+    ``` 
+    cd SPR
+3. Run te app: _Go Live_
+
+## 📄 License
+
+This project is licensed under the MIT LICENSE - see the [MIT License](./LICENSE) for details.
+
+## Contact
+
+Sudhir Chaudhary: csudhir302@gmail.com

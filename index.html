@@ -5,27 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <link rel="icon" type="png" href="favicon.png">
-    <audio src="youLose.mp3" id="loose-audio"></audio>
-    <audio src="youWon.mp3" id="won-audio"></audio>
-    <audio src="GameDraw.mp3" id="draw-audio"></audio>
+    <link rel="icon" type="png" href="./image/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <audio src="./audio/youLose.mp3" id="loose-audio"></audio>
+    <audio src="./audio/youWon.mp3" id="won-audio"></audio>
+    <audio src="./audio/GameDraw.mp3" id="draw-audio"></audio>
     <title>Scissor, Paper and Rock Game</title>
 </head>
 <body>
     <div id="container">
         <h2>Play Scissor Paper Rock Game</h2>
+        
+        <!-- Result message element -->
+        <div id="result-message"></div>
+        
         <div id="subcontainer">
             <div id="user-container">
                 <div class="text-container">
                     <strong>Choose Your Move</strong>
                 </div>
                 <div class="img-container" id="user-img">
-                    <div class="user-choice" id="Scissor"><img src="scissor.jpg" alt="Scissor"></div>
-                    <div class="user-choice" id="Paper"><img src="paper.jpg" alt="Paper"></div>
-                    <div class="user-choice" id="Rock"><img src="rock.jpg" alt="Rock"></div>
+                    <div class="user-choice" id="Scissor"><img src="./image/scissor.jpg" alt="Scissor"></div>
+                    <div class="user-choice" id="Paper"><img src="./image/paper.jpg" alt="Paper"></div>
+                    <div class="user-choice" id="Rock"><img src="./image/rock.jpg" alt="Rock"></div>
                 </div>
                 <div class="score">
-                    <strong>Your Score is: <p  id="user-score"> 0</p></strong>
+                    <strong>Your Score is: <span id="user-score">0</span></strong>
                 </div>
             </div>
             <div id="computer-container">
@@ -36,11 +41,15 @@
                     <div class="computer-choice"></div>
                 </div>
                 <div class="score">
-                    <strong>Computer Score is: <p  id="comp-score"> 0</p></strong>
+                    <strong>Computer Score is: <span id="comp-score">0</span></strong>
                 </div>
             </div>
         </div>
+        
+        <!-- Reset button -->
+        <button id="reset-button">Reset Game</button>
     </div>
+    
     <script src="scritp.js"></script>
 </body>
 </html>
